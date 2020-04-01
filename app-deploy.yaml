@@ -67,6 +67,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: appsody-frontend-bh
+  namespace: dev-bh
 spec:
   applicationImage: dev.local/appsody-frontend-bh
   createKnativeService: false
