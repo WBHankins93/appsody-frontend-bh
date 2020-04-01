@@ -29,7 +29,7 @@ app.get('/', function(req, res) {
 
 app.post('/signup', function(req, res) {
   var data = JSON.stringify(req.body)
-  console.log(data)
+  console.log(data, 'data+1')
 
   var options = {
     host: process.env.APPSODY_BACKEND_DEFAULT_URL ? url.parse(process.env.APPSODY_BACKEND_DEFAULT_URL).hostname : 'host.docker.internal',
